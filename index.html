@@ -26,7 +26,15 @@
     </header>
     <main class="w-full h-full">
     <div class="w-[90%] bg-amber-500 mt-4 p-4 flex justify-center items-center max-w-md  mx-auto rounded-lg">
-        <input type="text" name="ajouter un tache" id="ajout" class="w-[60%] rounded-full " placeholder="Ajoutez une tache">
+        <form id="form">
+        <input id="input" type="text" placeholder="Ajouter une tâche">
+        <button>Ajouter</button>
+      </form>
+    </div>
+    <div class="w-full bg-amber-500 mt-4 h-25 p-4   items-center mx-auto rounded-lg">
+      <h2 class>Pomodoro</h2>
+      <p id="timer">25:00</p>
+      <button id="start">Start</button>
     </div>
     <div>
         <h1 class="font-bold pt-4 pl-3 ">Today Task</h1>
