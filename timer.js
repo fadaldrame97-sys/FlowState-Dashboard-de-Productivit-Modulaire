@@ -1,1 +1,4 @@
-const startBtn = document.querySelector('#start');
+
+
+const ButtonStart = document.querySelector('#start');
+const Timer = document.querySelector('#timer');
