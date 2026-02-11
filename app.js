@@ -1,0 +1,1 @@
+import {TimerGlobale } from 'timer.js';
