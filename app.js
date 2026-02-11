@@ -1,3 +1,3 @@
-import {TimerGlobale } from 'timer.js';
+import {TimerGlobale } from './timer.js'
 
 TimerGlobale();
