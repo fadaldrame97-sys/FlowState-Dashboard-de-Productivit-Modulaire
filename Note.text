@@ -1,0 +1,6 @@
+Élément HTML	ID / usage	  Module associé
+Formulaire d’ajout	#form	   todo.js
+Input	             #input	    todo.js
+Liste des tâches	#list	    ui.js
+Minuteur	        #timer      timer.js
+Bouton start	    #start	    timer.js
