@@ -13,6 +13,7 @@ const mnts=Math.floor(temps/60);
 const sconds= temps%60;
 
 Timer.textContent=`${mnts.toString().padStart(2,'0')}:${sconds.toString().padStart(2,'0')}`;
+temps--;
  }
 
 
