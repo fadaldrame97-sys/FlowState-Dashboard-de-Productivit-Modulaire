@@ -4,3 +4,6 @@ Input	             #input	    todo.js
 Liste des tâches	#list	    ui.js
 Minuteur	        #timer      timer.js
 Bouton start	    #start	    timer.js
+
+
+la syntaxe ES6 “template literals
