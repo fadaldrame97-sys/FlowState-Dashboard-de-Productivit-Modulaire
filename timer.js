@@ -14,8 +14,19 @@ const sconds= temps%60;
 
 Timer.textContent=`${mnts.toString().padStart(2,'0')}:${sconds.toString().padStart(2,'0')}`;
 temps--;
- }
+  if(temps <= 0){
 
 
 
+    
+  }
+
+}
+
+
+
+ButtonStart.addEventListener('click',()=>{
+
+
+});
 }
