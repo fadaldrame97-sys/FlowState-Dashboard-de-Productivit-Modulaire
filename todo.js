@@ -12,10 +12,13 @@ if (myinput==="") return;
 if (ajout==="") return;
 if (liste==="") return;
 
+console.log(lesTaches);
+
+
 
 
     ajout.addEventListener('click',(e)=>{
-        e.preventdefault();
+        e.preventDefault();
 
 const valeurs=myinput.value.trim();
 if (valeurs==="") return;
@@ -24,7 +27,7 @@ lesTaches.push(valeurs);
 const tacheli=document.createElement('li');
   tacheli.textContent=valeurs;
 
-  li.className = "bg-amber-500 rounded shadow";
+  tacheli.className = "bg-amber-500 rounded shadow mb-2 shadow-2xl";
 
     liste.appendChild(tacheli);
 
