@@ -1,3 +1,4 @@
+import { createElement } from "react";
 
 export function todoPartie(){
 
@@ -11,14 +12,17 @@ if (myinput==="") return;
 if (ajout==="") return;
 if (liste==="") return;
 
-const valeurs=myinput.value.trim();
-if (valeurs==="") return;
-
-lesTaches.push(valeurs);
 
 
     ajout.addEventListener('click',(e)=>{
         e.preventdefault();
+
+const valeurs=myinput.value.trim();
+if (valeurs==="") return;
+
+lesTaches.push(valeurs);
+const tacheli=createElement('li');
+
     });
 
 
