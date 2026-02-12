@@ -11,7 +11,11 @@ export function create(valeurs) {
    const tacheli=document.createElement('li');
    tacheli.textContent=valeurs;
 tacheli.className = "bg-amber-500 rounded shadow mb-2 shadow-2xl";
-const spane=createElement("span");
+const span=createElement("span");
+span.textContent=valeurs;
+
+const supprimer=createElement("button");
+supprimer.innerHTML='<span class="material-symbols-outlined">supprimer</span>';
 
 
 return tacheli;
