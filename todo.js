@@ -1,4 +1,4 @@
-
+import { create } from "./ui"; 
 
 export function todoPartie(){
 
@@ -24,10 +24,8 @@ const valeurs=myinput.value.trim();
 if (valeurs==="") return;
 
 lesTaches.push(valeurs);
-const tacheli=document.createElement('li');
-  tacheli.textContent=valeurs;
 
-  tacheli.className = "bg-amber-500 rounded shadow mb-2 shadow-2xl";
+ const tacheli=create(valeurs); 
 
     liste.appendChild(tacheli);
 
