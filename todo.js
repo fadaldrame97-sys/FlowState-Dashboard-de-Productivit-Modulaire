@@ -1,4 +1,4 @@
-import { createElement } from "react";
+
 
 export function todoPartie(){
 
@@ -21,7 +21,14 @@ const valeurs=myinput.value.trim();
 if (valeurs==="") return;
 
 lesTaches.push(valeurs);
-const tacheli=createElement('li');
+const tacheli=document.createElement('li');
+  tacheli.textContent=valeurs;
+
+  li.className = "bg-amber-500 rounded shadow";
+
+    liste.appendChild(tacheli);
+
+    myinput.value = '';
 
     });
 
