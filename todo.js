@@ -5,6 +5,7 @@ export function todoPartie(){
 
     const myinput=document.getElementById("input");
     const ajout=document.getElementById("ajouter");
+    const liste=document.getElementById("list");
 
 
 
