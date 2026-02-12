@@ -14,8 +14,14 @@ tacheli.className = "bg-amber-500 rounded shadow mb-2 shadow-2xl";
 const span=createElement("span");
 span.textContent=valeurs;
 
-const supprimer=createElement("button");
+const supprimer=document.createElement("button");
 supprimer.innerHTML='<span class="material-symbols-outlined">supprimer</span>';
+ 
+supprimer.addEventListener('click',()=>{
+tacheli.remove();
+
+
+});
 
 
 return tacheli;
