@@ -9,4 +9,10 @@ export function todoPartie(){
 
 
 
+    ajout.addEventListener('click',(e)=>{
+        e.preventdefault();
+    });
+
+
+
 }
