@@ -14,6 +14,16 @@ export function todoPartie(){
 
 console.log(lesTaches);
 
+function afficher(){
+
+
+    if (lesTaches.length===0){
+      
+        liste.innerHTML='<p> Il faire quelques chose</p>';
+
+    }
+}
+
 
 
 
@@ -36,5 +46,5 @@ lesTaches.push(valeurs);
     });
 
 
-
+afficher()
 }

@@ -6,7 +6,11 @@
 
 // PasDetaches()
 
+
+
 export function create(valeurs) {
+
+    
 
    const tacheli=document.createElement('li');
  
