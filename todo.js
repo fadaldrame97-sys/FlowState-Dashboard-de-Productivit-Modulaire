@@ -16,11 +16,11 @@ console.log(lesTaches);
 
 function afficher(){
 
-
+liste.innerHTML="";
     if (lesTaches.length===0){
       
         liste.innerHTML='<p> Il faire quelques chose</p>';
-
+   return;
     }
 }
 
