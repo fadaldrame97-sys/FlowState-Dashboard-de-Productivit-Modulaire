@@ -1,4 +1,4 @@
-import { create } from "./ui"; 
+import { create } from "./ui.js"; 
 
 export function todoPartie(){
 
@@ -8,9 +8,9 @@ export function todoPartie(){
     const ajout=document.getElementById("ajouter");
     const liste=document.getElementById("list");
 
-if (myinput==="") return;
-if (ajout==="") return;
-if (liste==="") return;
+// if (myinput==="") return;
+// if (ajout==="") return;
+// if (liste==="") return;
 
 console.log(lesTaches);
 
