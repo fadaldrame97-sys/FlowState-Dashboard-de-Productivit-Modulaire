@@ -7,3 +7,7 @@ Bouton start	    #start	    timer.js
 
 
 la syntaxe ES6 “template literals
+
+
+Regex : Valider que le titre d'une tâche ne contient 
+pas de caractères spéciaux interdits

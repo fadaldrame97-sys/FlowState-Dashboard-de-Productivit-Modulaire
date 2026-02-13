@@ -2,7 +2,7 @@ import { create } from "./ui.js";
 
 export function todoPartie(){
 
-    let lesTaches=[];
+    let lesTaches=JSON.parse(localStorage.getItem("mesTaches")) ||[];
 
     const myinput=document.getElementById("input");
     const ajout=document.getElementById("ajouter");
@@ -16,12 +16,16 @@ console.log(lesTaches);
 
 function afficher(){
 
-liste.innerHTML="";
+liste.innerHTML=""
     if (lesTaches.length===0){
       
         liste.innerHTML='<p> Il faire quelques chose</p>';
    return;
     }
+     lesTaches.forEach(valeur => {
+        const li = create(valeur); // ta fonction ui.js
+        liste.appendChild(li);
+    });
 }
 
 
@@ -34,10 +38,10 @@ const valeurs=myinput.value.trim();
 if (valeurs==="") return;
 
 lesTaches.push(valeurs);
+afficher()
 
- const tacheli=create(valeurs); 
 
-    liste.appendChild(tacheli);
+
 
     
 
@@ -45,6 +49,6 @@ lesTaches.push(valeurs);
 
     });
 
-
 afficher()
+
 }
